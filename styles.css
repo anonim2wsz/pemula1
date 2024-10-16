@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #fff5f5;
+    margin: 0;
+    padding: 20px;
+    body {
+        background-image: url('background.jpg'); /* Ganti dengan gambar latar belakang yang ceria */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        background-color: rgba(117, 60, 60, 0.9); /* Transparansi untuk efek lebih lembut */
+        border: 5px solid #f39c12; /* Border berwarna cerah */
+    }
+    
+    .header {
+        border-bottom: 5px solid #f39c12; /* Garis bawah header */
+    }
+    
+    .tombol {
+        transition: background-color 0.3s ease; /* Efek transisi saat hover */
+    }
+    
+    .tombol:hover {
+        background-color: #e67e22; /* Warna saat hover */
+    }
+    
+    .foto-kue {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk gambar kue */
+    }
+    
+    .foto {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk gambar Kaka Oktaviani */
+    }
+    
+    .footer {
+        font-style: italic; /* Gaya font miring untuk footer */
+        color: #ffffff; /* Warna teks footer */
+    }
+    
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+    
+    .tombol {
+        animation: bounce 1s infinite; /* Animasi tombol */
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #08218d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.tombol {
+    background-color: #d30707;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background-color: #0019a8;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border: 2px solid #f39c12; /* Border berwarna cerah */
+}
